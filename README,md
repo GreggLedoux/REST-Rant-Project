@@ -19,4 +19,7 @@ REST-Rant is an app where users can review restaurants.
 
 ---
 
-1. As a dev, I need to request data from the server about a specific place so I can populate the places detail page
+1. As a dev, I need to request data from the server about a specific place using a new endpoint so I can populate the places detail page
+2. as a user, I need a place to view the specific details of one of my pages on a new JSX page, so I can use the app
+3. As a user, I need to edit a place using a new place editing form page, so i can change the data for one of my existing places
+4. 
