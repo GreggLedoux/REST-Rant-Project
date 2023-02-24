@@ -22,4 +22,10 @@ REST-Rant is an app where users can review restaurants.
 1. As a dev, I need to request data from the server about a specific place using a new endpoint so I can populate the places detail page
 2. as a user, I need a place to view the specific details of one of my pages on a new JSX page, so I can use the app
 3. As a user, I need to edit a place using a new place editing form page, so i can change the data for one of my existing places
-4. 
+4. As a user I need to be able to view the details about each individual place
+5. As a dev i need to be able to maintain the site by being able to update existing places.
+6. As a user, i need a place to request changes to existing places, which i have discovered.
+7. As a dev I need to be able to delete places that no longer exist, or fit the criteria.
+8. asa user i need a place to enter comments about a particuar place in the form of text.
+9. As a dev I need to be able to delete comments from users if they  are inappropriate.
+10. As a user I need an informationsl page instructing me that I have searched for something that does not exist in the app.
