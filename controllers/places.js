@@ -46,11 +46,11 @@ router.get('/', (req, res) => {
     res.send('DELETE /places/:id stub')
   })
   
-  router.get('/:id/edit', (req,res) {
+  router.get('/:id/edit', (req,res) => {
     res.send('Get edit form stub')
   })
 
-  router.post('/:id/rant' (req, res) {
+  router.post('/:id/rant', (req, res) => {
     res.send('GET /places/:id/rant stub')
   })
 
