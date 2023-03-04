@@ -1,33 +1,24 @@
 const React = require('react')
 const Def = require('../default')
 
-function show (data) {
+function new_form (data) {
+  let message = ''                 
+    if (data.message) {
+      message = (
+        <h4 className="alert-danger">
+          {data.message}
+        </h4>
+      )
+    }
     return (
         <Def>
           <main>
-            <h1>{ data.place.name }</h1>
+            <h1>Add a New Place</h1>
+            {message}                 
+            ...
           </main>
-          <h2>Ratings</h2>
-          <div>
-            <p>currently unrated</p>
-          </div>
-          <h2>Comments</h2>
-          <divz>
-            <p>No comments yet</p>
-          </divz>
         </Def>
-
     )
- }
+}
 
-<a href={'/places/${data.id}/edit'} className="btn btn-warning">
-    Edit
-</a>
-<form method="POST" action={'/places/${data.id}'?_method=DELETE }>
-    <button type="submit" className="btn btn-danger">
-        Delete
-    </button>
-</form>
- 
-
-module.exports = show
+module.exports = new_form
